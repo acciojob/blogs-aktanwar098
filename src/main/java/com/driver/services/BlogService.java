@@ -41,7 +41,7 @@ public class BlogService {
 
         List<Blog> res=user.getBlogList();
 
-        res.add(blog);
+        res.add(blogRepository1);
 
         user.setBlogList(res);
 
